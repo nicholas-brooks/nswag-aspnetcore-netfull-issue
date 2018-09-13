@@ -6,10 +6,10 @@ This was created using the ASP.NET Core wizard in VS 2017 (15.8.4) selecting the
 
 ## Modifications from the generated Template
 
- - Upgraded to angular6 and typescript
+ - Upgraded to angular6 and typescript 2.7
  - Added NSwag and swagger integration to app and clientapp.
 
-Easiest way is to diff the commits.
+Easiest way to see the differences is to diff the commits.
 
 
 ## Credits
