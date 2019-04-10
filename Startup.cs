@@ -49,7 +49,7 @@ namespace nswagnetfull
 
             app.UseSwaggerUi3(settings =>
             {
-                settings.SwaggerRoute = "/swagger/swagger.json";
+                settings.SwaggerRoutes.Add(new SwaggerUi3Route("default", "/swagger/swagger.json"));
             });
             app.UseMvc(routes =>
             {
